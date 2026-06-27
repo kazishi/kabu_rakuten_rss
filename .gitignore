@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# データベース（個人データ・大容量）
+monitor.db
+monitor.db-wal
+monitor.db-shm
+
+# 日足CSVデータ（個人の取引データ）
+day_stock_data/
+
+# Excelファイル（RSSブック・バックアップ）
+*.xlsm
+*.xlsx
+~$*
+
+# ログ
+*.log
+
+# Claude Code セッションデータ
+.claude/
+
+# 画像・スクリーンショット
+pic/
+
+# Windowsショートカット
+*.lnk
+
+# 無関係ファイル
+oasis_shift_form_safe.gs
